@@ -1,0 +1,88 @@
+/* Global Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+  }
+  
+  /* Header Styles */
+  .navbar {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  /* Hero Section Styles */
+  .hero {
+    background-image: url(biobiz\ \(1\).webp);
+    background-size: cover;
+    background-position: center;
+    min-height: 80vh;
+    color: #fff;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  
+  .hero p {
+    font-size: 1.25rem;
+  }
+  
+  /* Features Section Styles */
+  .features {
+    background-color: #f8f9fa;
+  }
+  
+  .feature-card {
+    background-color: #fff;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .feature-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* Sustainability, Innovation, and Updates Sections */
+  .bg-success {
+    background-color: #28a745 !important;
+  }
+  
+  .bg-light {
+    background-color: #f8f9fa !important;
+  }
+  
+  .rounded-3 {
+    border-radius: 0.5rem !important;
+  }
+  
+  .shadow {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+  }
+  
+  .card {
+    border: none;
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  /* BioBiz Consulting Section */
+  .card-body {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .card-text {
+    flex-grow: 1;
+  }
+  
+  /* Footer Styles */
+  footer {
+    font-size: 0.9rem;
+  }
